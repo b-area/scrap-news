@@ -1,0 +1,15 @@
+{
+  "name"         : "node-web-scrape",
+  "version"      : "0.0.1",
+  "description"  : "Scrape music news UK",
+  "repository"   : {
+  },
+  "dependencies" : {
+    "express"    : "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest",
+    "body-parser": "latest",
+    "escape-json-node": "latest",
+    "cors": "latest"
+  }
+}
