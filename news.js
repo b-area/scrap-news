@@ -52,5 +52,5 @@ app.get('/articles', function(req, res){
 
 var PORT = 3030;
 app.listen(PORT);
-console.log('Navigate to http://localhost:' + PORT +'/news');
+console.log('Navigate to http://localhost:' + PORT +'/articles');
 exports = module.exports = app;
