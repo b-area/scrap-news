@@ -50,7 +50,7 @@ app.get('/articles', function(req, res){
 	})
 })
 
-
-app.listen('3030')
-console.log('Magic happens on port 3030');
+var PORT = 3030;
+app.listen(PORT);
+console.log('Navigate to http://localhost:' + PORT +'/news');
 exports = module.exports = app;
